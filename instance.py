@@ -10,3 +10,4 @@ class User(object):
 u1=User("sh")
 u2=User("su")
 print(u1==u2)
+print("u1:%s,u2:%s"%(id(u1),id(u2)))
