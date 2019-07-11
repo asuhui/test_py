@@ -1,1 +1,1 @@
-# selenium_py
+# python practice
