@@ -1,13 +1,11 @@
 #coding=utf-8
 class User(object):
-    __instance=None
     def __init__(self,name):
         self.name=name
-    def __new__(cls,name):
+    def get_instance(cls,name):
         if not cls.__instance:
-            cls.__instance=object.__new__(cls)
+            cls.__instance=User(name)
         return cls.__instance
-u1=User("sh")
-u2=User("su")
+u1=User.get_instance("zs")
+u2=User.get_instance("ls")
 print(u1==u2)
-print("u1:%s,u2:%s"%(id(u1),id(u2)))
