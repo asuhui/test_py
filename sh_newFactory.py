@@ -3,3 +3,5 @@ class Person(object):
     pass
 class Factory(object):
     pass
+
+print("hello world")
