@@ -1,5 +1,5 @@
 #coding=utf-8
-class PasswordException(Exception):
+class PasswordException(Exception):#自定义异常类
     def __init__(self,name,pwd):
         self.name=name
         self.pwd=pwd
