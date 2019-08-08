@@ -1,0 +1,4 @@
+uname=18726003966;pwd=sha123456
+uname=123;pwd=sha123456
+uname= ;pwd=sha123456
+uname=18726003966;pwd=
